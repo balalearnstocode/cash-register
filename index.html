@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCC: Cash Register</title>
+    <link href="./main.css" rel="stylesheet">
+    <script src="./main.js"></script>
+</head>
+<body>
+    <div id="content">
+        <!-- <h2>Ceaser Cipher for both uppercase and lower case characters</h2> -->
+        <label for="price">Enter purchase Price:</label>
+        <input type="text" id="price" name="price" value="19.5">
+        <br><br>
+        <label for="payment">Enter Payment amount:</label>
+        <input type="text" id="payment" name="payment" value="20">
+        <br><br>
+        <label for="price">Enter Cash In Drawer:</label>
+        <textarea type="text" id="cid" name="cid" rows="8" >
+["PENNY", 1.01],
+["NICKEL", 2.05],
+["DIME", 3.1],
+["QUARTER", 4.25],
+["ONE", 90],
+["FIVE", 55],
+["TEN", 20],
+["TWENTY", 60],
+["ONE HUNDRED", 100]</textarea>
+        <br><br>
+        <button id="check" onclick="validateNumber()">Check</button>
+        <button id="clear" onclick="clearText()">Clear</button>
+        <br><br>
+        <div id="result"></div>
+    </div>
+    <div id="source-code">Source code:
+        <a href="https://github.com/balalearnstocode/roman-numeral-converter"
+        target="_blank">https://github.com/balalearnstocode/roman-numeral-converter</a>
+    </div>
+</body>
+</html>

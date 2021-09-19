@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#source-code {
+    text-align: center;
+    background-color: gainsboro;
+    height: 40px;
+    line-height: 40px;
+}
+/* -----*/
+#content {
+    padding-top: 2em;
+    width: 400px;
+    margin: 0 auto;
+    height: 400px;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    padding-bottom: 2em;
+}
+#result {
+    color: green;
+}
